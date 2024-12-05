@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<link href="style.css" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>登录到系统</h1>
+<form method="post" action="Login">
+    <hr>
+    <div>
+        <label>
+            <input type="text" placeholder="用户名" name="username">
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="password" placeholder="密码" name="password">
+        </label>
+    </div>
+    <div>
+        <button>登录</button>
+    </div>
+</form>
+<hr>
+<a href="file" download="icon.png">点我下载高清资源</a>
+
+<form method="post" action="file" enctype="multipart/form-data">
+    <div>
+        <input type="file" name="test-file">
+    </div>
+    <div>
+        <button>上传文件</button>
+    </div>
+</form>
+
+<hr>
+<div id="time"></div>
+<br>
+<br>
+<button onclick="updateTime()">更新数据</button>
+<script>
+    updateTime()
+</script>
+</body>
+
+
+
+</html>
